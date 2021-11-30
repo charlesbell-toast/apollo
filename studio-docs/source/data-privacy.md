@@ -107,7 +107,7 @@ You can set a value for the [usage reporting plugin's `sendVariableValues` optio
 In versions of Apollo Server 2 _prior_ to 2.7.0, **all** of an operation's GraphQL
 variables are sent to Apollo Studio by default.
 
-If you're using an earlier version of Apollo Server, it's recommended that you update. If you can't update for whatever reason, you can use the [`privateVariables` reporting option](https://www.apollographql.com/docs/apollo-server/migration-engine-plugins/#options-for-apolloserverpluginusagereporting) to specify the names of variables that should _not_ be sent to Studio. You can also set this option to `false` to prevent all variables from being sent. This reporting option is deprecated and will not be available in future versions of Apollo Server.
+If you're using an earlier version of Apollo Server, it's recommended that you update. If you can't update for whatever reason, you can use the [`privateVariables` reporting option](https://www.apollographql.com/docs/apollo-server/migration-engine-plugins/#options-for-apolloserverpluginusagereporting) to specify the names of variables that should _not_ be sent to Studio. You can also set this option to `true` to prevent all variables from being sent. This reporting option is deprecated and will not be available in future versions of Apollo Server.
 
 ### HTTP Headers
 
